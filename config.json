@@ -1,0 +1,246 @@
+{
+   "formatVersion": 1,
+   "menu": {
+       "Config.design": {
+         "label": "Config.design",
+         "formFields": {
+
+            "global.container1": {
+               "type": "verticalContainer",
+               "label": "Config.globalContainerLabel1",
+               "options": {
+                  "containerEntries":
+                  {
+
+
+           "CookieBarStyler.cbssize": {
+               "type": "selectBox",
+               "required": false,
+               "label": "Config.cbssize",
+               "options": {
+                  "defaultValue": "medium",
+                  "selectBoxValues": [
+                     {
+                        "value": "small",
+                        "caption": "Config.small"
+                     },
+                     {
+                        "value": "medium",
+                        "caption": "Config.medium"
+                     },
+                     {
+                        "value": "large",
+                        "caption": "Config.large"
+                     }
+                  ]
+               }
+           }
+       }
+   }
+            },
+
+           "global.container2": {
+               "type": "verticalContainer",
+               "label": "Config.globalContainerLabel2",
+               "options": {
+                  "containerEntries":
+                  {    
+                   "CookieBarStyler.cbscontainerbg": {
+                       "type": "colorPicker",
+                       "required": false,
+                       "scss": true,
+                       "key": "CookieBarStyler.cbscontainerbg",
+                       "label": "Config.cbscontainerbg",
+                       "options": {
+                           "defaultValue": "#FFFFFF"
+                       }
+                   }, 
+                   "CookieBarStyler.cbsborderwidth": {
+                     "type": "inputNumber",
+                     "scss": false,
+                     "key" : "CookieBarStyler.cbsborderwidth",
+                     "label" : "Config.cbsborderwidth",
+                     "options": {
+                         "defaultValue": "1"
+                     }
+                    },  
+                   "CookieBarStyler.cbscontainerbordercolor": {
+                     "type": "colorPicker",
+                     "required": false,
+                     "scss": true,
+                     "key": "CookieBarStyler.cbscontainerbordercolor",
+                     "label": "Config.cbscontainerbordercolor",
+                     "options": {
+                         "defaultValue": "#DEE2E6"
+                     }
+                 },      
+                   "CookieBarStyler.cbsborderradius": {
+                       "type": "inputNumber",
+                       "scss": false,
+                       "key" : "CookieBarStyler.cbsborderradius",
+                       "label" : "Config.cbsborderradius",
+                       "options": {
+                           "defaultValue": "3"
+                       }
+                   },       
+                     "CookieBarStyler.cbspaddingcontainer": {
+                       "type": "inputNumber",
+                       "scss": false,
+                       "key" : "CookieBarStyler.cbspaddingcontainer",
+                       "label" : "Config.cbspaddingcontainer",
+                       "options": {
+                           "defaultValue": "15"
+                       }
+                   } 
+       }
+   }
+
+           },     
+           "global.container3": {
+               "type": "verticalContainer",
+               "label": "Config.globalContainerLabel3",
+               "options": {
+                  "containerEntries":
+                  {      
+           "CookieBarStyler.cbsfontsizetitle": {
+               "type": "inputNumber",
+               "scss": false,
+               "key" : "CookieBarStyler.cbsfontsizetitle",
+               "label" : "Config.cbsfontsizetitle",
+               "options": {
+                   "defaultValue": "23"
+               }
+           },        
+             "CookieBarStyler.cbsfontsizecontainer": {
+               "type": "inputNumber",
+               "scss": false,
+               "key" : "CookieBarStyler.cbsfontsizecontainer",
+               "label" : "Config.cbsfontsizecontainer",
+               "options": {
+                   "defaultValue": "14"
+               }
+           },   
+           "CookieBarStyler.cbsfontcolortitle": {
+               "type": "colorPicker",
+               "required": false,
+               "scss": true,
+               "key": "CookieBarStyler.cbsfontcolortitle",
+               "label": "Config.cbsfontcolortitle",
+               "options": {
+                   "defaultValue": "#484848"
+               }
+           },                   
+           "CookieBarStyler.cbsfontcolorcontainer": {
+               "type": "colorPicker",
+               "required": false,
+               "scss": true,
+               "key": "CookieBarStyler.cbsfontcolorcontainer",
+               "label": "Config.cbsfontcolorcontainer",
+               "options": {
+                   "defaultValue": "#484848"
+               }
+
+           },
+           "CookieBarStyler.cbsfontcolorbtnprimary": {
+            "type": "colorPicker",
+            "required": false,
+            "scss": true,
+            "key": "CookieBarStyler.cbsfontcolorbtnprimary",
+            "label": "Config.cbsfontcolorbtnprimary",
+            "options": {
+                "defaultValue": "#FFFFFF"
+            }
+
+        },
+        "CookieBarStyler.cbsfontcolorbtnsecondary": {
+         "type": "colorPicker",
+         "required": false,
+         "scss": true,
+         "key": "CookieBarStyler.cbsfontcolorbtnsecondary",
+         "label": "Config.cbsfontcolorbtnsecondary",
+         "options": {
+             "defaultValue": "#484848"
+         }
+
+     }
+       }
+   }
+           },              
+           "global.container4": {
+               "type": "verticalContainer",
+               "label": "Config.globalContainerLabel4",
+               "options": {
+                  "containerEntries":
+                  {    
+                   "CookieBarStyler.cbsbtnsize": {
+                       "type": "selectBox",
+                       "required": false,
+                       "label": "Config.cbsbtnsize",
+                       "options": {
+                          "tooltip": "Theme",
+                          "defaultValue": "medium",
+                          "selectBoxValues": [
+                             {
+                                "value": "large",
+                                "caption": "Config.large"
+                             },
+                             {
+                                "value": "medium",
+                                "caption": "Config.medium"
+                             },
+                             {
+                                "value": "small",
+                                "caption": "Config.small"
+                             }
+                          ]
+                       }
+                    }
+       }
+   }
+           },
+           "global.container5": {
+               "type": "verticalContainer",
+               "label": "Config.globalContainerLabel5",
+               "options": {
+                  "containerEntries":
+                  {
+                   "CookieBarStyler.cbsprimarycolor": {
+                       "type": "colorPicker",
+                       "required": false,
+                       "scss": true,
+                       "key": "CookieBarStyler.cbsprimarycolor",
+                       "label": "Config.cbsprimarycolor",
+                       "options": {
+                           "defaultValue": "#026814"
+                       }
+                   },
+                   "CookieBarStyler.cbssecondarycolor": {
+                       "type": "colorPicker",
+                       "required": false,
+                       "scss": true,
+                       "key": "CookieBarStyler.cbssecondarycolor",
+                       "label": "Config.cbssecondarycolor",
+                       "options": {
+                           "defaultValue": "#EEEEEE"
+                       }
+                   }
+       }
+   }
+}                            
+
+
+   }
+     },
+         "Config.customcsshead": { 
+           "label": "Config.customcsshead",
+           "formFields": {
+             "CookieBarStyler.customcss1": {
+               "type": "inputTextArea",
+               "scss": false,
+               "key" : "CookieBarStyler.customcss1",
+               "label" : "Config.customcss"
+               }
+             }
+           }
+   }
+ }

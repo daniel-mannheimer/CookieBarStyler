@@ -1,0 +1,28 @@
+{
+  "version"           :"1.0.0",
+  "isClosedSource"    :false,
+  "name"              :"CookieBarStyler",
+  "license"           :"Copyright by Marktplatz-Experten.de",
+  "description"       :"",
+  "namespace"         :"CookieBarStyler",
+  "marketplaceName"   :{"de": "🎅🏽 CookieBarStyler","en": "🎅🏽 CookieBarStyler"},
+  "categories"        :["3527"],
+  "author"            :"Marktplatz-Experten.de",
+  "shortDescription"  :{"de": ".","en": ""},
+  "pluginIcon"        :"icon_plugin_xs.png",
+  "authorIcon"        :"icon_author_xs.png",
+  "email"             :"info@marktplatz-experten.de",
+  "keywords"          :["marktplatz-experten", "plugins", "container", "versand", "shipping", "icons", "design", "template"],
+  "type"              :"general",
+  "require"           :[],
+  "serviceProvider"   :"CookieBarStyler\\Providers\\CookieBarStylerServiceProvider",
+  "dataProviders"     :
+  [
+    {
+      "key":"CookieBarStyler\\Containers\\CookieBarStylerContainer",
+      "name":"CookieBarStyler Assets",
+      "description":"",
+      "defaultLayoutContainer": "Ceres::Template.Style"
+    }
+  ]
+}
